@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    background-image: url(jungle.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin: 0px;
+}
+td{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+.text{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+    color: red;
+    cursor: default;
+    margin: 10px;
+}
+.main{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%
+}
+.main table{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.main input[type="button"]{
+    background-color: black;
+    color: silver;
+    width: 15vw;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 3px solid blue;
+}
+.main input[type="text"]{
+    background-color: none;
+    color: black;
+    height: 20vh;
+    width: 70vw;
+    opacity: 0.5;
+    font-size: 50px;
+    border: 5px solid blue;
+}
